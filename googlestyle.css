@@ -1,3 +1,20 @@
+html, body {
+  margin: 0;
+  height: 100%;
+}
+
+body {
+  display: block;
+}
+
 #logo {
-  
+  padding: 109px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#center {
+  height: 233px;
+  margin-top: 89px;
+  text-align: center;
 }
