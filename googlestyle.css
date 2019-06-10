@@ -2,6 +2,7 @@ html, body {
   margin: 0;
   height: 100%;
   color: #222;
+  font-family: arial, sans-serif;
 }
 
 a {
@@ -9,23 +10,21 @@ a {
   padding-left: 15px;
   text-decoration: none;
   color: #000;
+  opacity: 0.75;
 }
 
 ul {
-  list-style-type: none;
   margin: 0;
   padding: 0;
 }
 
 li {
+  list-style-type: none;
   display: inline;
   text-align: right;
-  padding-right: 10px;
 }
 
 .top_left {
-  justify-content: flex-start;
-  align-items: center;
   position: absolute;
   margin: 7px 0 0 10px;
 }
@@ -43,41 +42,53 @@ li {
 }
 
 .mail_image {
-  padding-right: 15;
+  padding-right: 15px;
   display: flex;
+  flex: 0 1 auto;
 }
 
 .app_sign {
+  display: flex;
+  line-height: normal;
   position: relative;
-  text-align: right;
+  text-align: left;
   margin-left: 0 !important;
   margin-right: 0 !important;
   white-space: nowrap;
   min-width: 114px;
+  flex: 0 1 auto;
 }
 
-li.apps {
+.apps {
+  padding-left: 0;
   margin-left: 0 !important;
   margin-right: 0 !important;
-  background-image: url(https://image.flaticon.com/icons/svg/56/56844.svg);
-  background-repeat: no-repeat;
-  background-size: 20px 20px;
-  padding: 0 0 0 15px;
   display: inline-block;
-  vertical-align: middle;
-  color: #000;
+  flex: 0 0 auto;
+  background-image: url(https://ssl.gstatic.com/gb/images/i1_1967ca6a.png);
+  -webkit-background-size: 528px 68px;
+  background-size: 528px 68px;
+  background-position: -132px -38px;
+  opacity: .55;
   height: 30px;
   width: 30px;
 }
 
-li.sign {
+.sign {
   display: inline-block;
-  padding: 0 15px;
+  padding: 0 0 0 15px;
+  position: relative;
+  vertical-align: middle;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  flex: 0 0 auto;
+  text-align: left;
   color: #fff;
   border: 1px solid #4285f4;
   font-weight: bold;
   outline: none;
-  text-align: center;
+  background: #4285f4;
+  background: -webkit-linear-gradient(top, #4387fd, #4683ea);
 }
 
 .search_bar {
@@ -117,8 +128,8 @@ li.sign {
   margin: 0 auto;
   padding-left: 12px;
   padding-top: 6px;
-  width: 484px;
-  height: 46px;
+  width: 554px;
+  height: 39px;
   border-radius: 24px;
   border: 1px solid #dfe1e5;
   z-index: 3;
