@@ -16,6 +16,18 @@ html, body {
   font: 16px arial, sans-serif;
 }
 
+.mic {
+  display: flex;
+  flex: 1 0 auto;
+  background: url(http://www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png) 0 0 no-repeat;
+  height: 25px;
+  width: 25px;
+  margin: 8px 10px 0 0;
+  background-size: 24px;
+  vertical-align: middle;
+  z-index: 4;
+}
+
 .glogo {
   padding: 109px;
   margin-left: auto;
@@ -24,7 +36,7 @@ html, body {
 
 .search {
   position: relative;
-  display: block;
+  display: flex;
   margin: 0 auto;
   padding-left: 12px;
   padding-top: 6px;
