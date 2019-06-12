@@ -97,7 +97,7 @@ li {
   background-image: url(https://lh3.googleusercontent.com/-0LpeqWyhuKA/AAAAAAAAAAI/AAAAAAAAAAA/ACHi3rfstBSbC3JoktEhfMwWySbRNEGy8w.CMID/s32-c-mo/photo.jpg);
   background-repeat: no-repeat;
   outline: none;
-  border-radius: 2px;
+  border-radius: 25px;
   box-sizing: border-box;
   vertical-align: middle;
   margin-left: 0 !important;
@@ -173,6 +173,14 @@ li {
   text-align: center;
   width: auto;
   height: 34px;
+}
+
+.enter:hover, .lucky:hover, .search:hover {
+  background-image: -webkit-linear-gradient(top, #f8f8f8, #f1f1f1);
+  background-color: #f8f8f8;
+  border: 1px solid #c6c6c6;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  color: #222;
 }
 
 .lucky {
